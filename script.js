@@ -29,3 +29,29 @@ function whatonfirst() {
   // Example usage
   whosOnFirst();
   
+
+//"Who's on first?" (from the whosOnFirst function)
+
+// The whosOnFirst function is called, and the first console.log statement inside it is executed.
+
+//"No! I ask who's on first!" (from the whatonfirst function called inside whosOnFirst)
+
+// The whatonfirst function is then called from within whosOnFirst, which executes its console.log statement.
+
+//"What on first?" (from the whosOnFirst function, after whatonfirst is called)
+
+// After whatonfirst finishes executing, the control returns to whosOnFirst, and the final console.log statement inside whosOnFirst is executed.
+
+
+// Create a stackOverflow function
+function stackOverflow() {
+    console.log("Stack overflow!");
+    stackOverflow();
+  }
+  //the function stackOverflow ask for the name and returns "Stack overflow!"
+  stackOverflow();
+
+
+
+
+
